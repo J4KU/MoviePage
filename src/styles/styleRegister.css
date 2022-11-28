@@ -1,0 +1,57 @@
+.logoEfectBackground{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    height: 150px;
+    
+}
+
+.logoEffectBack{
+    
+}
+
+
+a{
+background-color: rgb(231, 200, 229) ;
+transition: all 1s ease-in-out;
+border-radius: 10px;
+}
+
+a:hover{
+    background-color: rgba(216, 139, 211, 0.737);
+    border-radius: 10px;
+
+}
+
+.logoHome{
+    height: 75px;
+    
+    transition: all 1s ease-in-out;
+
+}
+
+.logoHome:hover{
+    transform: scale(1.1);
+
+}
+
+.containerRegister{
+  background-color:  rgba(210, 184, 195, 0.616);
+
+}
+
+body{
+    background-image: url(../img/background1.jpg);
+
+}
+
+.btnEffects{
+    background: rgb(63,94,251);
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.btnEffects:hover{
+    transform: scale(1.1);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}

@@ -1,0 +1,40 @@
+body{
+  background-image: url(../img/photo-1489599849927-2ee91cede3ba.avif);
+  
+
+  background-size: cover;
+  
+  
+}
+
+
+
+.containerForm{
+  background-color: rgba(231, 200, 229, 0.71);
+  border-radius: 2%;
+  box-shadow: rgba(35, 35, 35, 0.705) 0px 0px 5px 5px;
+}
+
+.logoIndex{
+  display: flex;
+  justify-content: center;
+}
+
+.footer{
+    color: rgb(231, 200, 229);
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    text-align: end;
+}
+
+.btnEffects{
+  background: rgb(63,94,251);
+  transition: all 1s ease-in-out;
+  
+}
+
+.btnEffects:hover{
+  transform: scale(1.1);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
