@@ -3,23 +3,20 @@ const password = document.getElementById('password')
 const btnSubmit = document.getElementById('btnSubmit')
 const form = document.getElementById('form')
 
-form.addEventListener('submit', function(e){
-e.preventDefault()
-let userEmail = email.value
-let userPassword = password.value
 
-console.log(userEmail, userPassword, 'keepvalues')
 
-localStorage.setItem('userEmail')
-localStorage.setItem('userPassword')
+form.addEventListener('submit', function (e) {
+    e.preventDefault()
+    let userEmail = email.value
+    let userPassword = password.value
 
-if(email === userEmail && password === userPassword)
+    console.log(userEmail, userPassword, 'keepvalues')
 
-{  alert('Please Log In')
-    window,location.href='../../index.html'
-}
-else{
-    alert('Please Register')
-}
+    localStorage.setItem('userEmail', userEmail)
+    localStorage.setItem('userPassword', userPassword)
+
+
+    alert('Your registre was exit')
+    window.location.href = '../../index.html'
 
 })

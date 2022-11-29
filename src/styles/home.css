@@ -1,106 +1,33 @@
-
-
-
-.navbar{
-    background-color:rgb(231, 200, 229);
+.navbar {
+    background-color: rgb(231, 200, 229);
 }
 
-a{
-    background-color: rgb(231, 200, 229) ;
+a {
+    background-color: rgb(231, 200, 229);
     transition: all 1s ease-in-out;
     border-radius: 10px;
-    }
-    
-    a:hover{
-        background-color: rgba(216, 139, 211, 0.737);
-        border-radius: 10px;
-    
-    }
-.logoHome{
+}
+
+a:hover {
+    background-color: rgba(216, 139, 211, 0.737);
+    border-radius: 10px;
+
+}
+
+.logoHome {
     height: 75px;
     transition: all 1s ease-in-out;
 
 }
 
-.logoHome:hover{
+.logoHome:hover {
     transform: scale(1.1);
 
 }
 
-body{
-    background-image: url(../img/backgroundHome.jpg);
-    position: fixed;
-}
-
-.mainContain{
-    margin-top: 1%;
-    width: 1920px;
-    height: 1283px;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    gap: 1%;
-}
-
-
-.gif1{
-    grid-column-start: 2;
-    grid-column-end: 4;
-    width: 80%;
-    border-radius: 15px;
-    box-shadow: black 0px 0px 5px 5px;
-}
-
-
-
-.gif2{
-    
-    grid-column-start: 3;
-    grid-column-end: 5;
-    width: 90%;
-    grid-row-start: 2;
-    border-radius: 15px;
-    box-shadow: black 0px 0px 5px 5px;
-
-
-}
-
-.gif3{
-    
-    grid-column-start: 6;
-    grid-column-end: 8;
-    width: 90%;
-    grid-row-start: 1;
-    border-radius: 15px;
-    box-shadow: black 0px 0px 5px 5px;
-
-}
-
-.gif4{
-    
-    grid-column-start: 5;
-    grid-column-end: 7;
-    width: 90%;
-    grid-row-start: 2;
-    border-radius: 15px;
-    box-shadow: black 0px 0px 5px 5px;
-}
-
-
-
-.containerParagraph{
-    text-align: center;
-    margin-top: 10%;
-    text-decoration-color: azure 5px;
-    font-size: 35px;
-    color: rgb(66, 66, 59);
-    font-family:'Brush Script MT', cursive;
-    font-weight: bold;  
-    display: flex;
-    justify-content: center;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    width: 90%;
-    grid-row-start: 2;
-    margin-left: 1%;
+.logOut {
+    padding: 3px;
+    background-color: rgba(165, 42, 42, 0.306);
+    border-radius: 3px;
+    transition: 1s all ease-in-out;
 }

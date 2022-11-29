@@ -1,8 +1,9 @@
 body{
   background-image: url(../img/photo-1489599849927-2ee91cede3ba.avif);
-  
-
+  background-attachment: fixed;
   background-size: cover;
+
+  
   
   
 }
