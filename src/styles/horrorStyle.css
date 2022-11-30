@@ -15,9 +15,9 @@ a{
         background-color: rgba(216, 139, 211, 0.737);
         border-radius: 10px;
     
-    }
+}
 .logoHome{
-    height: 75px;
+    height: 50px;
     transition: all 1s ease-in-out;
 
 }

@@ -1,5 +1,6 @@
 .navbar {
     background-color: rgb(231, 200, 229);
+    box-shadow: rgba(0, 0, 0, 0.625) 0px 0px 7px 7px;
 }
 
 a {
@@ -41,3 +42,23 @@ a:hover {
     font-weight: bold;
 }
 
+.titleCard{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+body{
+    background: rgb(244,128,217);
+background: radial-gradient(circle, rgba(244,128,217,0.8897759787508753) 22%, rgba(238,174,202,1) 54%);
+}
+
+.cardStyle{
+    box-shadow: rgba(0, 0, 0, 0.625) 0px 0px 5px 3px;
+}
+
+.card-link{
+    text-decoration: none;
+    background-color: aliceblue;
+    padding: 5px;
+
+}

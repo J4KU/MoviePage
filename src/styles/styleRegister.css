@@ -11,11 +11,11 @@ body{
 
 .btnEffects{
     background: rgb(63,94,251);
-    transition: all 0.5s ease-in-out;
     
 }
 
 .btnEffects:hover{
-    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    transform: scale(0.95);
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 }
