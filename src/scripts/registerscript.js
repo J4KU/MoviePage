@@ -5,6 +5,7 @@ const form = document.getElementById('form')
 
 
 
+
 form.addEventListener('submit', function (e) {
     e.preventDefault()
     let userEmail = email.value
@@ -16,7 +17,8 @@ form.addEventListener('submit', function (e) {
     localStorage.setItem('userPassword', userPassword)
 
 
-    alert('Your registre was exit')
+    alert('Your Registration Was Sucessful')
     window.location.href = '../../index.html'
 
 })
+    

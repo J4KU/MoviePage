@@ -2,32 +2,21 @@ body{
   background-image: url(../img/photo-1489599849927-2ee91cede3ba.avif);
   background-attachment: fixed;
   background-size: cover;
+  
 
-  
-  
-  
 }
 
 
 
 .containerForm{
   background-color: rgba(231, 200, 229, 0.71);
-  border-radius: 2%;
-  box-shadow: rgba(35, 35, 35, 0.705) 0px 0px 5px 5px;
+    border-radius: 2%;
+    box-shadow: rgba(35, 35, 35, 0.705) 0px 0px 5px 5px;
+    width: fit-content;
 }
 
-.logoIndex{
-  display: flex;
-  justify-content: center;
-}
 
-.footer{
-    color: rgb(231, 200, 229);
-    display: flex;
-    justify-content:center;
-    align-items: flex-end;
-    text-align: end;
-}
+
 
 .btnEffects{
   background: rgb(63,94,251);
@@ -38,4 +27,11 @@ body{
   transition: all 0.5s ease-in-out;
   transform: scale(0.95);
   background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+.footer{
+    color: rgb(231, 200, 229);
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    text-align: end;
 }

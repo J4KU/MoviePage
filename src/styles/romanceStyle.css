@@ -1,10 +1,11 @@
 .navbar {
     background-color: rgb(231, 200, 229);
+    box-shadow: rgba(0, 0, 0, 0.625) 0px 0px 7px 7px;
 }
 
 a {
     background-color: rgb(231, 200, 229);
-    transition: all 1s ease-in-out;
+    transition: all 0.1s ease-in-out;
     border-radius: 10px;
 }
 
@@ -39,4 +40,42 @@ a:hover {
     transform: scale(1.2);
     background-color: brown;
     font-weight: bold;
+}
+
+
+body{
+    background: rgb(244,128,217);
+    background: radial-gradient(circle, rgba(244,128,217,0.8897759787508753) 22%, rgba(238,174,202,1) 54%);
+}
+
+.titleCard{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.cardStyle{
+    box-shadow: rgba(0, 0, 0, 0.625) 0px 0px 5px 3px;
+    background-color: rgb(228, 228, 216);
+}
+
+.list-group-item{
+    background-color: rgb(228, 228, 216);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+.card-text{
+    height: 180px;
+    
+
+}
+.card-link{
+    text-decoration: none;
+    background-color: rgb(228, 228, 216);
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card-img-top{
+    height: 500px;
 }

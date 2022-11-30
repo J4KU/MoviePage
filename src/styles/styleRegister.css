@@ -1,21 +1,30 @@
-.containerForm{
-    background-color: rgba(231, 200, 229, 0.71);
-    border-radius: 2%;
-    box-shadow: rgba(35, 35, 35, 0.705) 0px 0px 5px 5px;
-  }
 
 body{
     background-image: url(../img/background1.jpg);
-
+    background-attachment: fixed;
+  ;
 }
+
+
+.containerForm{
+    background-color: rgba(208, 173, 138, 0.71);
+    border-radius: 2%;
+    box-shadow: rgba(35, 35, 35, 0.705) 0px 0px 5px 5px;
+    width: fit-content;
+    height: 95%;
+  }
+
+  
 
 .btnEffects{
     background: rgb(63,94,251);
     
 }
 
+
 .btnEffects:hover{
     transition: all 0.5s ease-in-out;
     transform: scale(0.95);
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 }
+
