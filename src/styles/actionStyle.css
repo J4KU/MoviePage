@@ -1,24 +1,16 @@
+body{
+    background: rgb(244,128,217);
+    background: radial-gradient(circle, rgba(244,128,217,0.8897759787508753) 22%, rgba(238,174,202,1) 54%);
+}
 .navbar {
     background-color: rgb(231, 200, 229);
     box-shadow: rgba(0, 0, 0, 0.625) 0px 0px 7px 7px;
 }
 
-a {
-    background-color: rgb(231, 200, 229);
-    transition: all 0.1s ease-in-out;
-    border-radius: 10px;
-}
-
-a:hover {
-    background-color: rgba(216, 139, 211, 0.737);
-    border-radius: 10px;
-
-}
-
 .logoHome {
     height: 50px;
     transition: all 1s ease-in-out;
-
+    
 }
 
 .logoHome:hover {
@@ -43,9 +35,17 @@ a:hover {
 }
 
 
-body{
-    background: rgb(244,128,217);
-    background: radial-gradient(circle, rgba(244,128,217,0.8897759787508753) 22%, rgba(238,174,202,1) 54%);
+
+a {
+    background-color: rgb(231, 200, 229);
+    transition: all 0.1s ease-in-out;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: rgba(216, 139, 211, 0.737);
+    border-radius: 10px;
+
 }
 
 .titleCard{
@@ -63,10 +63,26 @@ body{
 }
 
 
+.card{
+    transition: all ease-out;
+    margin-top: 35px !important;
+    
+}
+
+.card:hover{
+    transition: all 0.5seg ;
+    transform:scale(1.1)
+    
+} 
+
+.cardContainer{
+    margin-top: 40px !important;
+
+}
 
 .card-text{
-    height: 180px;
-    
+
+  height: 175px; 
 
 }
 .card-link{

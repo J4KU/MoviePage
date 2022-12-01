@@ -10,11 +10,10 @@ body{
 
 .containerForm{
   background-color: rgba(231, 200, 229, 0.71);
-    border-radius: 2%;
-    box-shadow: rgba(35, 35, 35, 0.705) 0px 0px 5px 5px;
-    width: fit-content;
+  border-radius: 2%;
+   box-shadow: rgba(35, 35, 35, 0.705) 0px 0px 5px 5px;
+   width: auto !important;
 }
-
 
 
 
@@ -34,4 +33,7 @@ body{
     justify-content:center;
     align-items: flex-end;
     text-align: end;
+      font-size: x-small;
+
+  
 }

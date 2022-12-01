@@ -1,5 +1,20 @@
+body{
+    background: rgb(244,128,217);
+    background: radial-gradient(circle, rgba(244,128,217,0.8897759787508753) 22%, rgba(238,174,202,1) 54%);
+}
 .navbar {
     background-color: rgb(231, 200, 229);
+    box-shadow: rgba(0, 0, 0, 0.625) 0px 0px 7px 7px;
+}
+.logoHome {
+    height: 50px;
+    transition: all 1s ease-in-out;
+    
+}
+
+.logoHome:hover {
+    transform: scale(1.1);
+    
 }
 
 a {
@@ -14,16 +29,11 @@ a:hover {
 
 }
 
-.logoHome {
-    height: 50px;
-    transition: all 1s ease-in-out;
 
+.carousel{
+    margin-top: 25px !important;
 }
 
-.logoHome:hover {
-    transform: scale(1.1);
-
-}
 
 
 .LogOut {
@@ -40,4 +50,46 @@ a:hover {
     background-color: brown;
     font-weight: bold;
 }
+
+
+.merchTitle{
+    font-family: 'Courier New', Courier, monospace;
+   font-style: bold;
+   width: fit-content;
+   background-color:rgba(216, 139, 211, 0.737) ;
+
+}
+
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.625) 0px 0px 5px 3px;
+    background-color: rgb(228, 228, 216);
+    
+}
+.card-img-top{
+    border: solid grey;
+    border-radius: 6px;
+    margin-top: 6px;
+}
+
+.card{
+    transition: all ease-out;
+    margin-top: 35px !important;
+}
+
+.card:hover{
+    transition: all 0.5seg ;
+    transform:scale(1.1)
+    
+} 
+
+.btn{
+    background-color: rgba(172, 27, 27, 0.477) !important;
+
+}
+.btnM{
+    background-color: rgba(240, 129, 223, 0.881) !important;
+
+}
+
 
