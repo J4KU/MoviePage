@@ -18,31 +18,51 @@ body{
 
 }
 
+.userlogo{
+    height: 35px;
 
-.LogOut {
-    padding: 7.5px;
+ }
+   
+   
+ .containerUsuario {
+    border-radius: 6px;
+    width: auto;
+    height: 25px;
+    margin-bottom: 15px;
+    
+}
+ 
+   
+ #user1{
+       font-family: 'Courier New', Courier, monospace;
+       font-size: mediumñ
+       
+ }
+
+
+ .logOut {
     background-color: rgba(172, 27, 27, 0.477);
     border-radius: 7.5px;
     color: white;
     font-weight: bold;
+    height: 30px;
+    width: auto;
+    margin-left: 8px;
+    
 }
 
-.LogOut:hover{
+.logOut:hover{
     transition: 1s all ease-in-out;
-    transform: scale(1.2);
+    transform: scale(1.1);
     background-color: brown;
     font-weight: bold;
 }
 
-.usuario{
-    padding: 5px 2px;
-    text-transform: capitalize;
-    background-color: rgba(250, 235, 215, 0.584);
-    text-decoration: underline;
-    border-radius: 6px;
-    margin-right: 10px;
-    font-size: smaller;
+.outlogo{
+    height: 22px;
+    margin-bottom: 3px;
 }
+
 
 a {
     background-color: rgb(231, 200, 229);

@@ -1,7 +1,68 @@
+body{
+    background: rgb(244,128,217);
+    background: radial-gradient(circle, rgba(244,128,217,0.8897759787508753) 22%, rgba(238,174,202,1) 54%);
+}
 .navbar {
     background-color: rgb(231, 200, 229);
     box-shadow: rgba(0, 0, 0, 0.625) 0px 0px 7px 7px;
 }
+
+.logoHome {
+    height: 50px;
+    transition: all 1s ease-in-out;
+    
+}
+
+.logoHome:hover {
+    transform: scale(1.1);
+
+}
+
+.userlogo{
+    height: 35px;
+
+ }
+   
+   
+ .containerUsuario {
+    border-radius: 6px;
+    width: auto;
+    height: 25px;
+    margin-bottom: 15px;
+    
+}
+ 
+   
+ #user1{
+       font-family: 'Courier New', Courier, monospace;
+       font-size: medium;
+       
+ }
+
+
+ .logOut {
+    background-color: rgba(172, 27, 27, 0.477);
+    border-radius: 7.5px;
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    width: auto;
+    margin-left: 8px;
+    
+}
+
+.logOut:hover{
+    transition: 1s all ease-in-out;
+    transform: scale(1.1);
+    background-color: brown;
+    font-weight: bold;
+}
+
+.outlogo{
+    height: 22px;
+    margin-bottom: 3px;
+}
+
 
 a {
     background-color: rgb(231, 200, 229);
@@ -13,73 +74,6 @@ a:hover {
     background-color: rgba(216, 139, 211, 0.737);
     border-radius: 10px;
 
-}
-
-.logoHome {
-    height: 50px;
-    transition: all 1s ease-in-out;
-
-}
-
-.logoHome:hover {
-    transform: scale(1.1);
-
-}
-
-
-.LogOut {
-    padding: 7.5px;
-    background-color: rgba(172, 27, 27, 0.477);
-    border-radius: 7.5px;
-    color: white;
-    font-weight: bold;
-}
-
-.LogOut:hover{
-    transition: 1s all ease-in-out;
-    transform: scale(1.2);
-    background-color: brown;
-    font-weight: bold;
-}
-
-.usuario{
-    padding: 5px 2px;
-    text-transform: capitalize;
-    background-color: rgba(250, 235, 215, 0.584);
-    text-decoration: underline;
-    border-radius: 6px;
-    margin-right: 10px;
-    font-size: smaller;
-}
-
-.card{
-    transition: all ease-out;
-    margin-top: 35px !important;
-    
-}
-
-.card:hover{
-    transition: all 0.5seg ;
-    transform:scale(1.1)
-    
-} 
-
-
-body{
-    background: rgb(244,128,217);
-    background: radial-gradient(circle, rgba(244,128,217,0.8897759787508753) 22%, rgba(238,174,202,1) 54%);
-}
-
-
-
-.mainContain{
-    margin-top: 1%;
-    width: 1920px;
-    height: 1283px;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    gap: 1%;
 }
 
 .titleCard{
@@ -97,70 +91,26 @@ body{
 }
 
 
-.gif1{
-    grid-column-start: 2;
-    grid-column-end: 4;
-    width: 80%;
-    border-radius: 15px;
-    box-shadow: black 0px 0px 5px 5px;
-}
-
-
-
-.gif2{
+.card{
+    transition: all ease-out;
+    margin-top: 35px !important;
     
-    grid-column-start: 3;
-    grid-column-end: 5;
-    width: 90%;
-    grid-row-start: 2;
-    border-radius: 15px;
-    box-shadow: black 0px 0px 5px 5px;
-
-
 }
 
-.gif3{
+.card:hover{
+    transition: all 0.5seg ;
+    transform:scale(1.1)
     
-    grid-column-start: 6;
-    grid-column-end: 8;
-    width: 90%;
-    grid-row-start: 1;
-    border-radius: 15px;
-    box-shadow: black 0px 0px 5px 5px;
+} 
+
+.cardContainer{
+    margin-top: 40px !important;
 
 }
 
-.gif4{
-    
-    grid-column-start: 5;
-    grid-column-end: 7;
-    width: 90%;
-    grid-row-start: 2;
-    border-radius: 15px;
-    box-shadow: black 0px 0px 5px 5px;
-}
-
-
-
-.containerParagraph{
-    text-align: center;
-    margin-top: 10%;
-    text-decoration-color: azure 5px;
-    font-size: 35px;
-    color: rgb(66, 66, 59);
-    font-family:'Brush Script MT', cursive;
-    font-weight: bold;  
-    display: flex;
-    justify-content: center;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    width: 90%;
-    grid-row-start: 2;
-    margin-left: 1%;
-}
 .card-text{
-    height: 180px;
-    
+
+  height: 175px; 
 
 }
 .card-link{
@@ -173,5 +123,3 @@ body{
 .card-img-top{
     height: 500px;
 }
-
-

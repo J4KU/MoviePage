@@ -1,7 +1,68 @@
+body{
+    background: rgb(244,128,217);
+    background: radial-gradient(circle, rgba(244,128,217,0.8897759787508753) 22%, rgba(238,174,202,1) 54%);
+}
 .navbar {
     background-color: rgb(231, 200, 229);
     box-shadow: rgba(0, 0, 0, 0.625) 0px 0px 7px 7px;
 }
+
+.logoHome {
+    height: 50px;
+    transition: all 1s ease-in-out;
+    
+}
+
+.logoHome:hover {
+    transform: scale(1.1);
+
+}
+
+.userlogo{
+    height: 35px;
+
+ }
+   
+   
+ .containerUsuario {
+    border-radius: 6px;
+    width: auto;
+    height: 25px;
+    margin-bottom: 15px;
+    
+}
+ 
+   
+ #user1{
+       font-family: 'Courier New', Courier, monospace;
+       font-size: medium;
+       
+ }
+
+
+ .logOut {
+    background-color: rgba(172, 27, 27, 0.477);
+    border-radius: 7.5px;
+    color: white;
+    font-weight: bold;
+    height: 30px;
+    width: auto;
+    margin-left: 8px;
+    
+}
+
+.logOut:hover{
+    transition: 1s all ease-in-out;
+    transform: scale(1.1);
+    background-color: brown;
+    font-weight: bold;
+}
+
+.outlogo{
+    height: 22px;
+    margin-bottom: 3px;
+}
+
 
 a {
     background-color: rgb(231, 200, 229);
@@ -15,58 +76,25 @@ a:hover {
 
 }
 
-.logoHome {
-    height: 50px;
-    transition: all 1s ease-in-out;
-
-}
-
-.logoHome:hover {
-    transform: scale(1.1);
-
-}
-
-
-.LogOut {
-    padding: 7.5px;
-    background-color: rgba(172, 27, 27, 0.477);
-    border-radius: 7.5px;
-    color: white;
-    font-weight: bold;
-}
-
-.LogOut:hover{
-    transition: 1s all ease-in-out;
-    transform: scale(1.2);
-    background-color: brown;
-    font-weight: bold;
-}
-
-.usuario{
-    padding: 5px 2px;
-    text-transform: capitalize;
-    background-color: rgba(250, 235, 215, 0.584);
-    text-decoration: underline;
-    border-radius: 6px;
-    margin-right: 10px;
-    font-size: smaller;
-}
-
-body{
-    background: rgb(244,128,217);
-    background: radial-gradient(circle, rgba(244,128,217,0.8897759787508753) 22%, rgba(238,174,202,1) 54%);
-}
-
 .titleCard{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
+}
+.cardStyle{
+    box-shadow: rgba(0, 0, 0, 0.625) 0px 0px 5px 3px;
+    background-color: rgb(228, 228, 216);
+}
+
+.list-group-item{
+    background-color: rgb(228, 228, 216);
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
 .card{
     transition: all ease-out;
     margin-top: 35px !important;
-   
+    
 }
 
 .card:hover{
@@ -80,21 +108,9 @@ body{
 
 }
 
-.cardStyle{
-    box-shadow: rgba(0, 0, 0, 0.625) 0px 0px 5px 3px;
-    background-color: rgb(228, 228, 216);
-}
-
-.list-group-item{
-    background-color: rgb(228, 228, 216);
-    font-family: 'Courier New', Courier, monospace;
-}
-
-
-
 .card-text{
-    height: 180px;
-    
+
+  height: 175px; 
 
 }
 .card-link{
