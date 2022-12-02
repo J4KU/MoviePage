@@ -12,6 +12,16 @@ body{
     
 }
 
+.usuario{
+    padding: 5px 2px;
+    text-transform: capitalize;
+    background-color: rgba(250, 235, 215, 0.584);
+    text-decoration: underline;
+    border-radius: 6px;
+    margin-right: 10px;
+    font-size: smaller;
+}
+
 .logoHome:hover {
     transform: scale(1.1);
     

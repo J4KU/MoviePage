@@ -7,3 +7,6 @@ logOut.addEventListener('click', function (){
 
 
 })
+
+const user1 = document.getElementById('user1')
+user1.innerText = localStorage.getItem('nameUser')
